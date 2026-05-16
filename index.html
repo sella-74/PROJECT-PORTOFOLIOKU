@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serly - Portfolio</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SIDE NAVIGATION (Kanan) -->
+    <nav class="side-nav">
+        <a href="#home"><i class="fa-solid fa-house"></i></a>
+        <a href="#about"><i class="fa-regular fa-user"></i></a>
+        <a href="#skills"><i class="fa-solid fa-chart-simple"></i></a>
+        <a href="#work"><i class="fa-solid fa-book"></i></a>
+        <a href="#contact"><i class="fa-regular fa-address-book"></i></a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <div class="tech-icons">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-figma"></i>
+            </div>
+            <h1>Hi, I'm Serly</h1>
+            <p>I like designing the appearance of websites and applications. My focus is on creating clean, aesthetic, and user-friendly UI/UX designs that are easy for anyone to use.</p>
+        </div>
+        <div class="hero-image">
+            <img src="asset/Foto profil.jpeg" alt="Serly Profile">
+        </div>
+    </div>
+</section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about hidden">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <!-- Ganti link gambar ini -->
+                <img src="asset/badann.png" alt="About Serly">
+            </div>
+            <div class="about-box">
+                <p>I am a 10th-grade student majoring in Software Engineering, enthusiastic about the world of visual design and web development. I live in Boyolali. For me, good design is not just about beautiful colors, but also about how a website can be easily used by its users. I enjoy adding colors to a Figma palette and making them harmonious.</p>
+                <div>
+                <a href="recount.html" class="btn-brown-small">Experience</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills hidden">
+        <h2 class="section-title">My Skill</h2>
+        <p class="skill-desc">I don't just create designs, I understand how to build them. With this combined skillset, I ensure every design I craft can be transformed into a functional, real-world website.</p>
+        
+        <div class="skills-grid">
+            <div class="skill-item">
+                <i class="fa-brands fa-html5" style="color: #e34c26;"></i>
+                <div class="skill-bar"><div class="progress" data-width="60%"><span>60%</span></div></div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-github"></i>
+                <div class="skill-bar"><div class="progress" data-width="70%"><span>70%</span></div></div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-js" style="color: #f0db4f;"></i>
+                <div class="skill-bar"><div class="progress" data-width="40%"><span>40%</span></div></div>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-html5" style="color: #e34c26;"></i>
+                <div class="skill-bar"><div class="progress" data-width="75%"><span>75%</span></div></div>
+            </div>
+            <div class="skill-item bootstrap-skill">
+                <i class="fa-brands fa-bootstrap" style="color: #7952b3;"></i>
+                <div class="skill-bar"><div class="progress" data-width="50%"><span>50%</span></div></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- WORK SECTION -->
+    <section id="work" class="work hidden">
+        <h2 class="section-title text-light">My Work</h2>
+        <div class="work-grid">
+            <!-- Card 1 -->
+            <div class="work-card">
+                <h3>SeaCycle</h3>
+                <img src="asset/kolaborasi.png" alt="SeaCycle">
+                <p>Website for recycled goods</p>
+                <a href="https://sella-74.github.io/PROJECT-1/" class="btn-brown-small">See All</a>
+            </div>
+            <!-- Card 4 -->
+            <div class="work-card">
+                <h3>School</h3>
+                <img src="asset/sekolah.png" alt="School">
+                <p>School promotional website</p>
+                <a href="https://sella-74.github.io/Landing-page-Tugas2/" class="btn-brown-small">See All</a>
+            </div>
+            <!-- Card 2 -->
+            <div class="work-card">
+                <h3>Environment</h3>
+                <img src="asset/environment.png" alt="Environment">
+                <p>Educational website and call to protect nature</p>
+                <a href="  https://sella-74.github.io/tugas3-environment/" class="btn-brown-small">See All</a>
+            </div>
+            <!-- Card 3 -->
+            <div class="work-card">
+                <h3>Destination</h3>
+                <img src="asset/destinasi.png" alt="Destination">
+                <p>Website for booking tourist destinations</p>
+                <a href=" https://sella-74.github.io/Tugas4/" class="btn-brown-small">See All</a>
+            </div>
+            <!-- Card 5 -->
+            <div class="work-card">
+                <h3>Music Concert</h3>
+                <img src="asset/music.png" alt="Music Concert">
+                <p>Website to buy music concert tickets</p>
+                <a href=" https://sella-74.github.io/landing-page-music/" class="btn-brown-small">See All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact hidden">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <div class="input-group">
+                    <label>Your name</label>
+                    <input type="text" placeholder="Your full name..">
+                </div>
+                <div class="input-group">
+                    <label>Your email</label>
+                    <input type="email" placeholder="Your email address..">
+                </div>
+                <div class="input-group full-width">
+                    <label>Massages</label>
+                    <textarea placeholder="Write Something.."></textarea>
+                </div>
+                <button class="btn-submit">Send Massages</button>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-box">
+                    <strong>Email</strong>
+                    <p>suksessela74@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <strong>Contact</strong>
+                    <p>082 236 934 947</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="map-wrapper">
+  <div class="map-frame">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.730355963025!2d110.4856041382946!3d-7.417282519556253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7b32f051dd9d%3A0x80c1173bc7fb90c5!2sLaris%20Grosir%20pusat!5e0!3m2!1sid!2sid!4v1778906523760!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+
+    <div class="map-overlay">
+      <h3>Lokasi Kami</h3>
+      <p>Dukuh Rejo Ngaddirojo</p>
+    </div>
+
+  </div>
+</div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Media</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/serlymrcelia_" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@username_kamu" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                     <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">My Service</a></li>
+                    <li><a href="#skills">My Skill</a></li>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </div>
+            <div class="footer-section address-section">
+                <h4>Address</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Dsn. Margodadi, Rt 001, Rw 007, Kec. Gladagsari</p>
+                <p><i class="fa-solid fa-phone"></i> +62 236 934 947</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 Serly</p>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
